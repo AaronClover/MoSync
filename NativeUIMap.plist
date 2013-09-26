@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>NativeUIDemo</string>
+	<string>NativeUIMap</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -31,11 +31,11 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.BuiltWithMoSyncSDK.NativeUIDemo</string>
+	<string>com.BuiltWithMoSyncSDK.NativeUIMap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>NativeUIDemo</string>
+	<string>NativeUIMap</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
