@@ -73,9 +73,9 @@
 		85A0815311353EDE00267D56 /* resources */ = {isa = PBXFileReference; lastKnownFileType = text; path = resources; sourceTree = "<group>"; };
 		85DF23B8126744D1003A0FF6 /* MoSyncViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoSyncViewController.mm; sourceTree = "<group>"; };
 		85DF23EF126745DA003A0FF6 /* libMoSyncLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMoSyncLib.a; path = "libs/Release-iphonesimulator/libMoSyncLib.a"; sourceTree = "<group>"; };
-		85DF24491267586A003A0FF6 /* NativeUIMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeUIMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DF24491267586A003A0FF6 /* NativeUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E2A0D51181D1B200CDB453 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		85F2558911AC155D00EB47EE /* NativeUIMap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NativeUIMap.plist; sourceTree = "<group>"; };
+		85F2558911AC155D00EB47EE /* NativeUIDemo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NativeUIDemo.plist; sourceTree = "<group>"; };
 		85F25B0011AD723900EB47EE /* cpp_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_defs.h; path = helpers/cpp_defs.h; sourceTree = "<group>"; };
 		85F25B0111AD723900EB47EE /* cpp_maapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_maapi.h; path = helpers/cpp_maapi.h; sourceTree = "<group>"; };
 		85F25B0B11AD728A00EB47EE /* rebuild.build.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rebuild.build.cpp; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85DF24491267586A003A0FF6 /* NativeUIMap.app */,
+				85DF24491267586A003A0FF6 /* NativeUIDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 				85796C5412719251002B7859 /* Icon.png */,
 				8519011E1199B90400B71F58 /* data_section.bin */,
 				85A0815311353EDE00267D56 /* resources */,
-				85F2558911AC155D00EB47EE /* NativeUIMap.plist */,
+				85F2558911AC155D00EB47EE /* NativeUIDemo.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -213,9 +213,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85F2555511AC155D00EB47EE /* NativeUIMap */ = {
+		85F2555511AC155D00EB47EE /* NativeUIDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85F2558411AC155D00EB47EE /* Build configuration list for PBXNativeTarget "NativeUIMap" */;
+			buildConfigurationList = 85F2558411AC155D00EB47EE /* Build configuration list for PBXNativeTarget "NativeUIDemo" */;
 			buildPhases = (
 				85F2555611AC155D00EB47EE /* Resources */,
 				85F2555C11AC155D00EB47EE /* Sources */,
@@ -225,9 +225,9 @@
 			);
 			dependencies = (
 			);
-			name = NativeUIMap;
+			name = NativeUIDemo;
 			productName = "__PROJECT_NAME_\U0010_";
-			productReference = 85DF24491267586A003A0FF6 /* NativeUIMap.app */;
+			productReference = 85DF24491267586A003A0FF6 /* NativeUIDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +238,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NativeUIMap" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NativeUIDemo" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -252,7 +252,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85F2555511AC155D00EB47EE /* NativeUIMap */,
+				85F2555511AC155D00EB47EE /* NativeUIDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -299,14 +299,14 @@
 				GCC_PREFIX_HEADER = MoSync_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = NativeUIMap.plist;
+				INFOPLIST_FILE = NativeUIDemo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"\"$(SRCROOT)/libs/Release-iphonesimulator\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = NativeUIMap;
+				PRODUCT_NAME = NativeUIDemo;
 			};
 			name = Debug;
 		};
@@ -319,14 +319,14 @@
 				GCC_PREFIX_HEADER = MoSync_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = NativeUIMap.plist;
+				INFOPLIST_FILE = NativeUIDemo.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"\"$(SRCROOT)/libs/Release-iphonesimulator\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = NativeUIMap;
+				PRODUCT_NAME = NativeUIDemo;
 			};
 			name = Release;
 		};
@@ -344,7 +344,7 @@
 				LIBRARY_SEARCH_PATHS = "libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				PRODUCT_NAME = NativeUIMap;
+				PRODUCT_NAME = NativeUIDemo;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +364,7 @@
 				LIBRARY_SEARCH_PATHS = "libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				PRODUCT_NAME = NativeUIMap;
+				PRODUCT_NAME = NativeUIDemo;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85F2558411AC155D00EB47EE /* Build configuration list for PBXNativeTarget "NativeUIMap" */ = {
+		85F2558411AC155D00EB47EE /* Build configuration list for PBXNativeTarget "NativeUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85F2558511AC155D00EB47EE /* Debug */,
@@ -382,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NativeUIMap" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NativeUIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
